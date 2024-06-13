@@ -9,6 +9,7 @@ body{
   margin-left: 600px;
   margin-top: 200px;
   background-image: url("maths.jpeg");
+  background-repeat:no-repeat;
   padding-top: 110px;
   
 }
