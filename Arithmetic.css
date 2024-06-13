@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    align-content: center;
+}
+.arithmetic{
+  width: 450px;
+  background-color:black;
+  height: 510px;
+  margin-left: 600px;
+  margin-top: 200px;
+  background-image: url("maths.jpeg");
+  padding-top: 110px;
+  
+}
+
+#arth1,#arth2,#arth3,#arth4,#arth5,#arth6,#arth7{
+    height: 40px;
+    margin-left: 160px;
+    width: 150px;
+    background-color: black;
+    color: white;
+}
+/* #a1{
+    color: rgb(37, 25, 144);
+    margin-left: 70px;
+} */

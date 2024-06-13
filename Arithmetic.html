@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Arithmetic.css">
+</head>
+<body>
+    
+    <div class="arithmetic">
+        <!-- <h2 id="a1">ARITHMETIC OPERATIONS</h2> -->
+        <div>
+            <button type="submit" onclick="addition()" id="arth1">ADDITION</button>
+        </div><br>
+        <div>
+            <button type="submit" onclick="substraction()" id="arth2">SUBSTRACTION</button>
+        </div><br>
+        <div>
+            <button type="submit" onclick="multiplication()" id="arth3">MULTIPLICATION</button>
+        </div><br>
+        <div>
+            <button type="submit" onclick="division()" id="arth4">DIVISION</button>
+        </div><br>
+        <div>
+            <button type="submit" onclick="factorial()" id="arth5">FACTORIAL</button>
+        </div><br>
+        <div>
+            <button type="submit" onclick="SIGN()" id="arth6">SIGN</button>
+        </div><br>
+        <div>
+            <button type="submit" onclick="even_odd()" id="arth7">EVEN_ODD</button>
+        </div>
+    </div>
+    <script>
+
+        function addition(){
+            document.getElementById("#arth1");
+            let num1=parseInt(prompt("enter the first number:"))
+            let num2=parseInt(prompt("enter the second number:"))
+            let res =m+n;
+            console.log(res)
+            document.write(res);
+        }
+        function substraction(){
+            document.getElementById("#arth2");
+            let num1=(prompt("enter the first number:"))
+            let num2=(prompt("enter the second number:"))
+            let res =num1-num2;
+            console.log(res)
+            document.write(res);
+        }
+        function multiplication(){
+            document.getElementById("#arth3");
+            let num1=parseInt(prompt("enter the first number:"))
+            let num2=parseInt(prompt("enter the second number:"))
+            let res =num1*num2;
+            console.log(res)
+            document.write(res);
+        }
+        function division(){
+            document.getElementById("#arth4");
+            let num1=parseInt(prompt("enter the first number:"))
+            let num2=parseInt(prompt("enter the second number:"))
+            let res =num1/num2;
+            console.log(res)
+            document.write(res);
+        }
+        function factorial(){
+            document.getElementById("#arth5");
+            let num=parseInt(prompt("enter the number "))
+            // while(num>0){
+            //     num=num*(num-1)
+            // }
+            let mul=1;
+            for(let i=1;i<=num;i++){
+                mul=mul*i;
+            }
+            console.log(mul)
+            document.write(mul);
+        }
+        function SIGN(){
+            document.getElementById("#arth6");
+            let num=Number(prompt("enter the number "))
+            if(num>=0){
+                console.log(num+" "+"is a positive number")
+                document.write(num+" "+"is a positive number");
+            }
+            else{
+                console.log(num+" "+"is a negative number")
+                document.write(num+" "+"is a negative number");
+            }
+        }
+        function even_odd(){
+            document.getElementById("#arth7");
+            let num=Number(prompt("enter the number "))
+            if(num%2===0){
+                console.log(num+" "+"is a even number")
+                document.write(num+" "+"is a even number");
+            }
+            else{
+                console.log(num+" "+"is a odd number")
+                document.write(num+" "+"is a odd number");
+            }
+        }
+
+
+    </script>
+</body>
+</html>
